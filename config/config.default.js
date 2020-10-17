@@ -30,15 +30,15 @@ module.exports = appInfo => {
     // database configuration
     client: {
       // host
-      host: '127.0.0.1',
+      host: '47.115.56.152',
       // port
       port: '3306',
       // username
-      user: 'root',
+      user: 'root-blog',
       // password
-      password: 'Li709319582',
+      password: 'root-blog',
       // database
-      database: 'react_blog',    
+      database: 'react-blog',    
     },
     // load into app, default is open
     app: true,
@@ -54,7 +54,7 @@ module.exports = appInfo => {
     　　　　domainWhiteList: [ '*' ]
     　　};
       config.cors = {
-        origin: 'http://localhost:3000',
+        origin: '*',
         credentials: true,  //允许Cook可以跨域
         allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS'
         };
